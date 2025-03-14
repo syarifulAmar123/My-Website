@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Syariful Amar</h2>
+                <p class="sub-heading">Web Developer Expert</p>
+            </div>
+            <div class="fitur fitur-1">
+                <h4 class="price">Start from 500K</h4>
+                <p class="item">Pembuatan Website WordPres</p>
+            </div>
+            <div class="fitur fitur-2">
+                <h4 class="price">Start from 1.5 jt </h4>
+                <p class="item">Pembuatan Website Custom</p>
+            </div>
+        </header>
+
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Elsyarif Company</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+
+        <section class="services">
+            <div class="service">
+                <div class="ikon"></div>
+                <h3>React-Native</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus deserunt nostrum alias quod dolorum molestiae.</p>
+            </div>
+            <div class="service">
+                <div class="ikon"></div>
+                <h3>React-JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus deserunt nostrum alias quod dolorum molestiae.</p>
+            </div>
+            <div class="service">
+                <div class="ikon"></div>
+                <h3>Next.JS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus deserunt nostrum alias quod dolorum molestiae.</p>
+            </div>
+            <div class="service">
+                <div class="ikon"></div>
+                <h3>Node.js</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus deserunt nostrum alias quod dolorum molestiae.</p>
+            </div>
+        </section>
+
+        <section class="galeri">
+            <h2>Gallery</h2>
+            <img src="image/1.png" alt="">
+            <img src="image/2.png" alt="">
+            <img src="image/3.png" alt="">
+            <img src="image/4.png" alt="">
+            <img src="image/5.png" alt="">
+            <img src="image/6.png" alt="">
+            <img src="image/3.png" alt="">
+            <img src="image/4.png" alt="">
+            <img src="image/5.png" alt="">
+            <img src="image/6.png" alt="">
+            <!-- <img src="image/custom.jpg" alt="">
+            <img src="image/procreator-global-ui-ux-design-agency-VzJjPuk53sk-unsplash.jpg" alt="">
+            <img src="image/Worpress.jpg" alt="">
+            <img src="image/3.png" alt=""> -->
+        </section>
+
+
+    </div>
+    <script>
+    const menuToggle = document.querySelector
+    ('.menu-toggle');   
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function(){
+    nav.classList.toggle('slide');
+});
+    </script>
+</body>
+</html>
