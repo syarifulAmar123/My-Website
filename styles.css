@@ -269,7 +269,6 @@ body{
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        background-color: black;
         z-index: 1;
         transform: translateY(-100%);
         opacity: 0;
@@ -277,7 +276,7 @@ body{
     }
     
     .menu ul.slide {
-        opacity: 1;
+        opacity: .9;
         transform: translateY(0);
     }
     
